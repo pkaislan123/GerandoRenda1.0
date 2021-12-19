@@ -11,6 +11,7 @@ public class GerandoRendaApplication {
 		System.out.println("Olá mundo!");
 		
 		System.out.println("Olá mundo3!");
+		//teste3.0
 	}
 
 }
