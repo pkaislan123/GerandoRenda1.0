@@ -1,4 +1,4 @@
-package models;
+package br.com.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 public class Teste {
 
 	private String name;
-	
+	private String time;
 	
 }
