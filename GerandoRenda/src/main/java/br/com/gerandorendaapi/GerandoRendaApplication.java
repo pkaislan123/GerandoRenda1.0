@@ -10,7 +10,7 @@ public class GerandoRendaApplication {
 		SpringApplication.run(GerandoRendaApplication.class, args);
 		System.out.println("Olá mundo!");
 		
-		System.out.println("Olá mundo2!");
+		System.out.println("Olá mundo3!");
 	}
 
 }
