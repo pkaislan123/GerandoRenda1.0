@@ -8,6 +8,6 @@ import br.com.model.Produtos;
 
 public interface ProdutosRepository extends JpaRepository<Produtos, Integer>{
 
-	List<Produtos>findByTitulo(int id);
+	List<Produtos>findByDescricao(String descricao);
 
 }
