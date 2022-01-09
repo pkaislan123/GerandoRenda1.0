@@ -1,6 +1,5 @@
 package br.com;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -15,6 +14,7 @@ public class GerandoRendaApiApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(GerandoRendaApiApplication.class, args);
+		System.out.println("Servidor online");
 	}
 
 	@Bean

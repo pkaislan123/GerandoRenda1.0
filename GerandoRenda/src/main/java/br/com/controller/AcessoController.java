@@ -92,7 +92,5 @@ public class AcessoController {
 		List<User> operadores =  userRepository.listarOperadores();
 		return operadores;
 	}
-	
-	
-	
+		
 }

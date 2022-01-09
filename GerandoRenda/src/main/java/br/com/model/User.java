@@ -54,14 +54,11 @@ public class User {
 	@Email
 	private String email;
 	
-	
 	@ManyToMany @Fetch(FetchMode.JOIN)
 	@JoinTable(	name = "user_roles", 
 				joinColumns = @JoinColumn(name = "user_id"), 
 				inverseJoinColumns = @JoinColumn(name = "role_id"))
 	private Set<Role> roles = new HashSet<>();
-
-
 
 	public Set<Role> getRoles() {
 		return this.roles;
@@ -71,5 +68,4 @@ public class User {
 		this.username = username;
 		this.senha = password;
 	}
-
 }
