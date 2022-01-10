@@ -21,9 +21,7 @@ public class Imagens {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String descricao;
-	@ManyToOne
-	@JoinColumn(name="produtos_id", referencedColumnName = "id", nullable = true)
-	private Produtos produtos;
+
 	
 
 }
